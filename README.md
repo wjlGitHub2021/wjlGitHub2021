@@ -3,7 +3,7 @@
 ###
 
 <div data-importer="stats" align="center">
-  <img src="https://raw.githubusercontent.com/wjlGitHub2021/wjlGitHub2021/activity-graph-output/activity-graph.svg?area=false&theme=dracula&custom_title=JLong" height="150" alt="activity-graph graph"  />
+  <img src="https://raw.githubusercontent.com/wjlGitHub2021/wjlGitHub2021/activity-graph-output/activity-graph.svg?area=false&theme=dracula&custom_title=KitaNyan's GitHub Stats" height="200" alt="activity-graph graph"  />
 </div>
 
 ###
