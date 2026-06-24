@@ -1,17 +1,6 @@
 <h2 data-importer="text" align="left">Hi！👋 欢迎来到 JLong 的 Github！</h2>
 
 ###
-
-<div data-importer="stats" align="center">
-  <img src="https://raw.githubusercontent.com/wjlGitHub2021/wjlGitHub2021/activity-graph-output/activity-graph.svg?area=false&theme=dracula&custom_title=JLong" height="" alt="activity-graph graph"  />
-</div>
-
-###
-
-<img data-importer="image" align="right" height="200" src="https://raw.githubusercontent.com/wjlGitHub2021/wjlGitHub2021/refs/heads/main/mylogo.PNG"  />
-
-###
-
 <div data-importer="techs" align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" height="30" alt="apple logo"  />
   <img width="12" />
@@ -24,6 +13,17 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="30" alt="figma logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="30" alt="flutter logo"  />
+</div>
+
+
+###
+
+<img data-importer="image" align="right" height="200" src="https://raw.githubusercontent.com/wjlGitHub2021/wjlGitHub2021/refs/heads/main/mylogo.PNG"  />
+
+###
+
+<div data-importer="stats" align="center">
+  <img src="https://raw.githubusercontent.com/wjlGitHub2021/wjlGitHub2021/activity-graph-output/activity-graph.svg?area=false&theme=dracula&custom_title=JLong" height="" alt="activity-graph graph"  />
 </div>
 
 ###
