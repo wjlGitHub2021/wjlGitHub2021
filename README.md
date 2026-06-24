@@ -3,7 +3,6 @@
 ###
 
 <div data-importer="stats" align="center">
-  <img src="https://raw.githubusercontent.com/wjlGitHub2021/wjlGitHub2021/stats-output/stats.svg?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="50" alt="stats graph"  />
   <img src="https://raw.githubusercontent.com/wjlGitHub2021/wjlGitHub2021/activity-graph-output/activity-graph.svg?area=false&theme=dracula&custom_title=JLong" height="" alt="activity-graph graph"  />
 </div>
 
