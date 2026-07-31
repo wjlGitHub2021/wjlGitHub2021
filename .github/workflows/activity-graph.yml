@@ -1,14 +1,13 @@
 name: Update Activity Graph
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
-
+  schedule:
+    # 每天两次（整点）；原先 "* */12" 会每分钟空跑
+    - cron: "0 */12 * * *"
   workflow_dispatch:
-
   push:
     branches:
-    - main
+      - main
 
 jobs:
   build:
@@ -17,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v4
 
       - name: Generate activity graph
         uses: maurodesouza/github-readme-activity-graph-action@v1
@@ -25,10 +24,11 @@ jobs:
           username: ${{ github.repository_owner }}
           options: area=false&theme=dracula&custom_title=JLong
           output_path: dist/activity-graph.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # 默认 GITHUB_TOKEN 看不全私有仓贡献；用 PAT（repo 权限）与主页图对齐
+          token: ${{ secrets.PROFILE_GRAPH_TOKEN }}
 
       - name: Push activity-graph.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: activity-graph-output
           build_dir: dist
