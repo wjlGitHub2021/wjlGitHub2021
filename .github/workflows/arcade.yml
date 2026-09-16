@@ -2,11 +2,17 @@ name: Generate arcade animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch:
+  repository_dispatch:
+    types: [refresh-profile-graphs]
   push:
     branches:
       - main
+
+concurrency:
+  group: profile-arcade
+  cancel-in-progress: true
 
 jobs:
   generate:

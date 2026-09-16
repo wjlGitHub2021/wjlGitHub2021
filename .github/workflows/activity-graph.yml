@@ -2,12 +2,18 @@ name: Update Activity Graph
 
 on:
   schedule:
-    # 每天两次（整点）；原先 "* */12" 会每分钟空跑
-    - cron: "0 */12 * * *"
+    # GitHub 最短可靠间隔约 5–15 分钟，实际可能再延迟
+    - cron: "*/15 * * * *"
   workflow_dispatch:
+  repository_dispatch:
+    types: [refresh-profile-graphs]
   push:
     branches:
       - main
+
+concurrency:
+  group: profile-activity-graph
+  cancel-in-progress: true
 
 jobs:
   build:
